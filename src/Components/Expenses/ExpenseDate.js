@@ -2,7 +2,7 @@
 import Card from '../UI/Card';
 import './ExpenseDate.css'
 const ExpenseDate = ({expenseDate}) => {
-    console.log(expenseDate);
+   
     const month=expenseDate.toLocaleString('en-us',{month:'long'});
     const day=expenseDate.toLocaleString('en-us',{day:'2-digit'});
     const year=expenseDate.getFullYear();
